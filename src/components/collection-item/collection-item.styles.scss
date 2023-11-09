@@ -12,13 +12,15 @@
     background-size: cover;
     background-position: center;
     margin-bottom: 5px;
+    border-radius: 8px;
   }
 
   .custom-button {
     width: 80%;
     opacity: 0.7;
     position: absolute;
-    top: 255px;
+    top: auto;
+    bottom: 60px;
     display: none;
   }
 
@@ -35,11 +37,11 @@
 
   .collection-footer {
     width: 100%;
-    height: 5%;
+    height: 15%;
     display: flex;
     justify-content: space-around;
     font-size: 18px;
-    padding-right: 20px;
+    padding-right: 25px;
 
     .name {
       width: 90%;
@@ -60,10 +62,6 @@
     .collection-footer {
       height: 5%;
       margin-bottom: 20px;
-    }
-
-    .custom-button {
-      top: 380px;
     }
   }
 }
