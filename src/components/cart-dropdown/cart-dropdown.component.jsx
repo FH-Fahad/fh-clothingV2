@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { withRouter } from "react-router-dom";
 
-import "./cart-dropdown.styles.scss";
+import "./cart-dropdown.styles.css";
 
 import CustomButton from "../custom-button/custom-button.component";
 import CartItem from "../cart-item/cart-item.component";

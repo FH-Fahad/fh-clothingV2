@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
+  border-radius: 8px;
   margin: 0 7.5px 15px;
   overflow: hidden;
 }

@@ -2,7 +2,7 @@
 import React from "react";
 import { connect } from "react-redux";
 
-import "./collection.styles.scss";
+import "./collection.styles.css";
 
 import CollectionItem from "../../components/collection-item/collection-item.component";
 

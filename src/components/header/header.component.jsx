@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { createStructuredSelector } from "reselect";
 import { auth } from "../../firebase/firebase.utils";
 
-import "./header.styles.scss";
+import "./header.styles.css";
 
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
@@ -16,7 +16,7 @@ import { selectCurrentUser } from "../../redux/user/user.selectors";
 const Header = ({ currentUser, hidden }) => (
   <div className="header">
     <Link className="logo-container" to="/">
-      <img src="public/crown.svg" alt="logo" className="logo" />
+      <img src="/crown.svg" alt="logo" className="logo" />
     </Link>
 
     <div className="options">
