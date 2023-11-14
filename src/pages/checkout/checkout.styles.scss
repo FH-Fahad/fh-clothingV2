@@ -62,10 +62,10 @@
   }
 }
 @media (max-width: 768px) {
-.checkout-header {
-justify-content: center;
+  .checkout-header {
+    justify-content: center;
 
-.header-block {
+    .header-block {
       &:first-child {
         display: none;
       }
